@@ -1,0 +1,18 @@
+[project]
+name = "immich_smart_albums"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "loguru>=0.7.3",
+    "pydantic>=2.10.4",
+    "pyyaml>=6.0.2",
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "types-pyyaml>=6.0.12.20241221",
+    "types-requests>=2.32.0.20241016",
+]
